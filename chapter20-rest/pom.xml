@@ -35,6 +35,14 @@
             <version>5.16.3</version>
         </dependency>
 
+        <!-- Jackson JSON Mapper -->
+        <!-- SpringMVC的@ResponseBody需要使用 -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
         <!-- database -->
         <dependency>
             <groupId>com.h2database</groupId>
